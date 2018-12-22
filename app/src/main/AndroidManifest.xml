@@ -19,7 +19,8 @@
         <activity
             android:name=".SelectCardActivity"
             android:label="@string/title_activity_select_card"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddCreditCardActivity"></activity>
     </application>
 
 </manifest>
