@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Control de Gastos de mis Tarjetas</string>
     <string name="title_activity_select_card">SelectCardActivity</string>
+    <string name="assignment_name_card">Nombre de la Tarjeta</string>
+    <string name="assignment_limit_card">Limite de la Tarjeta</string>
+    <string name="select_color">Seleccione un color de fondo</string>
 </resources>
