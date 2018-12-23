@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.blockcodedevelopment.controldegastosdemistarjetas">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-6206683948901623~1806020045"
+            android:value="[ca-app-pub-6206683948901623~1806020045]" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddCreditCardActivity" />
         <activity
             android:name=".SelectCardActivity"
             android:label="@string/title_activity_select_card"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".AddCreditCardActivity"></activity>
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

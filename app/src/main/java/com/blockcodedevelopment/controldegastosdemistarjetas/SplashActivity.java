@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.google.android.gms.ads.MobileAds;
+
 public class SplashActivity extends AppCompatActivity {
 
     private final int DURATION_SPLASH = 1500;
@@ -19,6 +21,8 @@ public class SplashActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash);
+
+        MobileAds.initialize(this,"ca-app-pub-6206683948901623~1806020045");
 
         new Handler().postDelayed(new Runnable(){
             public void run(){
