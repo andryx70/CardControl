@@ -22,6 +22,7 @@ public class SelectCardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_select_card);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(null);
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
