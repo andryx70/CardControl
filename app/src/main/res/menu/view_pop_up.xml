@@ -8,27 +8,9 @@
         app:itemBackground="@color/red"/>
 
     <item
-        android:id="@+id/pink"
-        android:title="Rosa"
-        app:itemBackground="@color/pink"
-        />
-
-    <item
         android:id="@+id/purple"
         android:title="Purpura"
         app:itemBackground="@color/purple"
-        />
-
-    <item
-        android:id="@+id/deeppurple"
-        android:title="Morado"
-        app:itemBackground="@color/deeppurple"
-        />
-
-    <item
-        android:id="@+id/indigo"
-        android:title="Indigo"
-        app:itemBackground="@color/indigo"
         />
 
     <item
@@ -44,50 +26,22 @@
         />
 
     <item
-        android:id="@+id/cyan"
-        android:title="C"
-        app:itemBackground="@color/cyan"
-        />
-
-    <item
-        android:id="@+id/teal"
-        android:title=""
-        app:itemBackground="@color/teal"
-        />
-
-    <item
         android:id="@+id/green"
-        android:title=""
+        android:title="Verde"
         app:itemBackground="@color/green"
         />
 
-    <item
-        android:id="@+id/lightgreen"
-        android:title=""
-        app:itemBackground="@color/lightgreen"
-        />
-
-    <item
-        android:id="@+id/lime"
-        android:title=""
-        app:itemBackground="@color/lime"
-        />
 
     <item
         android:id="@+id/yellow"
-        android:title=""
+        android:title="Amarillo"
         app:itemBackground="@color/yellow"
         />
 
-    <item
-        android:id="@+id/amber"
-        android:title=""
-        app:itemBackground="@color/amber"
-        />
 
     <item
         android:id="@+id/orange"
-        android:title=""
+        android:title="Naranja"
         app:itemBackground="@color/orange"
         />
 
